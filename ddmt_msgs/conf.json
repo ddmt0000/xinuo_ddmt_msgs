@@ -1,0 +1,10 @@
+{
+    "name": "气泡信息提示",
+    "brief": "作者：等待明天<br>在会使用气泡提示代替xiuno自带的提示效果，注意该插件可能会与深度自定义的主题插件产生冲突请合理使用。<br>该插件需要依赖等待明天Notiflix信息通知插件",
+    "version": "1.2",
+    "bbs_version": "4.0",
+    "installed": 1,
+    "enable": 1,
+    "hooks_rank": [],
+    "dependencies": []
+}
