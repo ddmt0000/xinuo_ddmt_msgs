@@ -1,6 +1,6 @@
 <?php 
 $notes = $user['unread_notices'];
 if ($notes >= 1){
-    echo '<script>if(Notiflix_initialize){Notiflix.Notify.Info(\'你有'.$user['unread_notices'].'条未读信息。\', function(){location.replace("../my-notice.htm");}, {cssAnimationStyle:\'zoom\', cssAnimationDuration:500,});}</script>';
+    echo '<script>if(Notiflix_initialize){Notiflix.Notify.Info(\'你有'.$user['unread_notices'].'条未读信息。\', {cssAnimationStyle:\'zoom\', cssAnimationDuration:500,});}</script>';
 }
 ?>
